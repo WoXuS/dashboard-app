@@ -1,0 +1,8 @@
+.recharts-cartesian-grid {
+    stroke-opacity: 0.5;
+  }
+  
+  .recharts-cartesian-grid-horizontal line:last-child {
+    display: none;
+  }
+  
