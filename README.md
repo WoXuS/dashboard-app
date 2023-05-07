@@ -6,15 +6,9 @@
 [![MUI](https://img.shields.io/badge/MUI-5.11.16-blue)](https://mui.com/)
 [![React Testing Library](https://img.shields.io/badge/RTL-13.4-blue)](https://testing-library.com/)
 
-A simple dashboard application built using React 18, TypeScript 4, and MUI 5. The app allows the user to:
+A simple dashboard application built using React 18, TypeScript 4, and MUI 5. The app features a dashboards with shopping carts containing mock data from the following API: https://dummyjson.com/docs/carts. The `CartDetails` component has been tested using React Testing Library. All components, except for `Skeleton` and `CircularProgress`, were written from scratch.
 
-- view a list of all carts
-- add and remove carts
-- select a specific cart to view the price of each product in the cart, as well as its discounted price. This information is presented in a chart.
-
-The app uses the following API: https://dummyjson.com/docs/carts. The `CartDetails` component has been tested. All components, except for `Skeleton` and `CircularProgress`, were written from scratch.
-
-![Dashboard Application](./assets/dashboard-screenshot.png)
+![Dashboard Application](./assets/dashboard-screenshot.jpeg)
 
 ## Demo Link
 
@@ -42,7 +36,7 @@ To get started, clone the repository and install the dependencies:
 
 ```bash
 git clone https://github.com/WoXuS/dashboard-app
-cd registration-module
+cd dashboard-app
 npm install
 ```
 
