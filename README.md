@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+# Dashboard Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![React](https://img.shields.io/badge/React-18.2-blue)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue)](https://www.typescriptlang.org/)
+[![Reacharts](https://img.shields.io/badge/Recharts-2.5.0-blue)](hhttps://recharts.org/en-US/)
+[![MUI](https://img.shields.io/badge/MUI-5.11.16-blue)](https://mui.com/)
+[![React Testing Library](https://img.shields.io/badge/RTL-13.4-blue)](https://testing-library.com/)
 
-## Available Scripts
+A simple dashboard application built using React 18, TypeScript 4, and MUI 5. The app allows the user to:
 
-In the project directory, you can run:
+- view a list of all carts
+- add and remove carts
+- select a specific cart to view the price of each product in the cart, as well as its discounted price. This information is presented in a chart.
 
-### `npm start`
+The app uses the following API: https://dummyjson.com/docs/carts. The `CartDetails` component has been tested. All components, except for `Skeleton` and `CircularProgress`, were written from scratch.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Dashboard Application](./assets/dashboard-screenshot.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Demo Link
 
-### `npm test`
+Acess the app at https://dashboard-app.wozniakkamil.com
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Table of Contents
 
-### `npm run build`
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- View a list of all carts.
+- Add and remove carts.
+- Select a specific cart to view the price of each product in the cart, as well as its discounted price. This information is presented in a chart.
+- Pagination for the list of carts.
+- Error handling of API calls.
+- Simple, user-friendly interface with animations.
+- Fully responsive design.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+To get started, clone the repository and install the dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+git clone https://github.com/WoXuS/dashboard-app
+cd registration-module
+npm install
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To start the development server, run:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Open http://localhost:3000 to view the registration module in your browser.

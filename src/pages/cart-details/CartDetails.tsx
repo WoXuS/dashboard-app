@@ -19,7 +19,6 @@ const CartDetails: React.FC<CartDetailsProps> = ({ cart }) => {
     navigate("/");
     return null;
   }
-  console.log(cart);
   const products = cart.products.map((product) => ({
     ...product,
     discountedPricePerPiece: Math.ceil(
