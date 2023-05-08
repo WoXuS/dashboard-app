@@ -2,13 +2,11 @@
 
 [![React](https://img.shields.io/badge/React-18.2-blue)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue)](https://www.typescriptlang.org/)
-[![Reacharts](https://img.shields.io/badge/Recharts-2.5.0-blue)](hhttps://recharts.org/en-US/)
+[![Reacharts](https://img.shields.io/badge/Recharts-2.5-blue)](hhttps://recharts.org/en-US/)
 [![MUI](https://img.shields.io/badge/MUI-5.11.16-blue)](https://mui.com/)
 [![React Testing Library](https://img.shields.io/badge/RTL-13.4-blue)](https://testing-library.com/)
 
-A simple dashboard application built using React 18, TypeScript 4, and MUI 5. The app features a dashboards with shopping carts containing mock data from the following API: https://dummyjson.com/docs/carts. The `CartDetails` component has been tested using React Testing Library. All components, except for `Skeleton` and `CircularProgress`, were written from scratch.
-
-![Dashboard Application](./assets/dashboard-screenshot.jpeg)
+A simple dashboard application built using React 18, TypeScript 4, and Recharts 2. The app features a dashboards with shopping carts containing mock data from the following API: https://dummyjson.com/docs/carts. The `CartDetails` component has been tested using React Testing Library. All components, except for `Skeleton` and `CircularProgress`, were written from scratch.
 
 ## Demo Link
 
@@ -17,6 +15,7 @@ Acess the app at https://dashboard-app.wozniakkamil.com
 ## Table of Contents
 
 - [Features](#features)
+- [Screenshots](#screenshots)
 - [Installation](#installation)
 - [Usage](#usage)
 
@@ -29,6 +28,12 @@ Acess the app at https://dashboard-app.wozniakkamil.com
 - Error handling of API calls.
 - Simple, user-friendly interface with animations.
 - Fully responsive design.
+
+## Screenshots
+
+![Dashboard Application Cart List](./assets/dashboard-screenshot.jpeg)
+
+![Dashboard Application Cart Details](./assets/dashboard-screenshot-2.jpg)
 
 ## Installation
 
